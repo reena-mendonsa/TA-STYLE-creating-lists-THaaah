@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************CUstom Code***********/
+
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#D4CEA7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+     
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/***********header***********/
+
+.header{
+    padding:40px;
+    background-color: #F96115;
+}
+
+.nav-menu a{
+    padding:10px;
+    margin-right: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color:#ffff;
+    font-weight: 700;
+}
+
+.box{
+    width:30%;
+    height: 500px;
+    background-color: #005979;
+    font-size:22px;
+    color:#D4CEA7;
+    font-weight: 700;
+    margin-top:40px;
+    /* box-shadow: 0 6px 6px -6px rgb(104, 103, 103); */
+    box-shadow: 8px 8px 10px -4px black;
+
+}
+
+
+.menu1{
+    margin-left: 40px;
+    list-style-type:decimal;
+    list-style-position: inside;  
+    margin-top:40px;
+    /* margin-bottom: 100px; */
+    padding:20px;
+}
+
+.menu1 li{
+    /* margin-top:10px; */
+    padding:5px 0;
+}
+
+.sub-menu{
+    list-style-type: decimal;   
+    margin-left:30px;
+}
+/**********Box2*****************/
+
+.box2-menu{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-top:40px;
+    margin-left:40px;
+    padding: 20px;
+}
+
+.box2-menu li{
+    padding:5px 0;
+}
+.ordered-subMenu{
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left:40px;
+
+    
+}
+
+.ordered-subMenu li{
+    padding: 5px 0;
+}
+.sub-subMenu{
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.sub-subMenu li{
+    padding:5px 0;
+}
+
+
+
+/**************Box3************/
+
+.box3-menu{
+
+    margin-top:40px;
+    /* list-style: inside , image('../media/blackcheckmark.png')); */
+    /* list-style-type: symbols(<i class="fas fa-check-circle"></i>); */
+    list-style-position: inside;
+
+    
+}
+.box3-menu li{
+    margin-left:40px; 
+}
+.chk .fas{
+    color:black;
+    padding:8px;
+    
+}
+
+.box3-menu li{
+    padding:5px 0;
+
+}
+
+/***********Section2 **********/
+
+.section2{
+    margin-top:40px;
+
+}
+
+.text1 h2{
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color:#402B22;
+    
+}
+
+.text1 p{
+    font-size: 18px;
+    color:#78624E;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.text2 h2{
+    line-height: 1.2;
+}
+
+/**********Footer ********/
+
+.footer{
+    background-color: #252C22;
+    color:#D4CEA7;
+    padding:40px;
+    margin-top:20px;
+}
+.footer-nav{
+    font-size: 18px;
+    font-weight: 700;
+        
+}
+
+.footer-menu li{
+    padding:10px;
+    margin-left:20px;
+}
