@@ -1,0 +1,149 @@
+<!--- Create a layout according to the design shown below.
+
+![Creating lists Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/lists/ex-1.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.-->
+
+<!DOCTYPE  html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Assignment1 Using Lists</title>
+        <link rel="stylesheet" href ="assets/stylesheet/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/471db95236.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="container" >
+                <ul class="nav-menu flex-start">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Faqs</a>
+                    </li>
+                    <li>
+                        <a href="#">Program</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </header>
+        <main>
+            <section>
+                <div class="container flex">
+                    <!--Box1-->
+                    <div class="box">
+                        <ol class="menu1">
+                            <li>Home</li>
+                            <li>Page</li>
+                            <li>Services</li>
+                            <li>About us</li>
+                            <li>Portfolio</li>
+                            <ol class="sub-menu" start="20">
+                                <li>Pricing</li>
+                                <li>News</li>
+                                <li>Testimonials</li>
+                                <li>Contact us</li>
+                            </ol>
+                        </ol>
+                    </div>
+                    <!--Box2-->
+                    <div class="box">
+                        <ul class="box2-menu">
+                            <li>Home</li>
+                            <li>Menu</li>
+                            <ol class="ordered-subMenu">
+                                <li>Menu1</li>
+                                <ul class="sub-subMenu">
+                                    <li>Sub Menu 1</li>
+                                    <li>Sub Menu 2</li>
+                                </ul>
+                                <li>Menu 2</li>
+                                <li>Menu 3</li>
+                                <li>Menu 4</li>
+                                <li>Menu 5</li>
+                            </ol>
+                            <li>How we work</li>
+                            <li>About us</li>
+                            <li>Contact us</li>
+                        </ul>    
+                    </div>
+                    <!--Box3-->
+                    <div class="box">
+                        <ul class="box3-menu">
+                            <li class="chk"><i class="fas fa-check-circle"></i>Home</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>Page</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>Services</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>About us</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>Portfolio</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>Pricing</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>News</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>Testimonia</li>
+                            <li class="chk"><i class="fas fa-check-circle"></i>Contact us</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section2">
+                <div class="container">
+                    <div class="text1">
+                    <h2>What is Lorem Ipsum ?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                        Ipsum.</p>
+                    </div>
+                    <div class="text1">
+                        <h2>Why do we use it?</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                            using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web
+                            page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                            sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+                            purpose (injected humour and the like).</p>
+                    </div>  
+                    <div class="text1 text2">
+                        <h2>Lorem Ipsum</h4>
+                        <h2>Dummy Text</h4>
+                    </div>
+                    <div class="text1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container" >
+                    <nav class="footer-nav">
+                        <ul class="footer-menu flex-start">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Faqs</li>
+                            <li>Program</li>
+                            <li>Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </main>
+    </body>
+    
+</html>
